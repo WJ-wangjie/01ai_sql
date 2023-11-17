@@ -28,5 +28,7 @@ from (
          from review_response_1117_end
      )tt  group by prompt,data_type)t;
 
+
+
 select *
 from review_request;
