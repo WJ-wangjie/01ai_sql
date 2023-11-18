@@ -34,7 +34,6 @@ from (
          from review_response_1118
      )tt  group by prompt,data_type)t;
 
-
 #
 # select *
 # from review_request;
