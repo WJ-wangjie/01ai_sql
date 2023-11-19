@@ -18,22 +18,35 @@ from (
 #          select distinct 'jq_r4' as api_type, content_raise4 as prompt,'output'as data_type,rist_result_raise4 as risk_safe
 #          from person_1117 where content_raise4 is not null  and rist_result_raise4 ='unsafe'
 #          union all
+#          select distinct 'person' as api_type,content_raise3 as prompt,'input'as data_type,r3审核员1 as risk_safe
+#          from person_1117_not_end where content_raise3 is not null and rist_result_raise3 ='unsafe'
+#          union all
+#          select distinct 'person' as api_type,content_raise4 as prompt,'output'as data_type,r4审核员1 as risk_safe
+#          from person_1117_not_end where content_raise4 is not null  and rist_result_raise4 ='unsafe'
+#          union all
+#          select distinct 'person' as api_type,content_raise3 as prompt,'input'as data_type,r3审核员1 as risk_safe
+#          from person_1118_end where content_raise3 is not null and rist_result_raise3 ='unsafe'
+#          union all
+#          select distinct 'person' as api_type,content_raise4 as prompt,'output'as data_type,r4审核员1 as risk_safe
+#          from person_1118_end where content_raise4 is not null  and rist_result_raise4 ='unsafe'
+#          union all
+#          select api_type,prompt,data_type,risk_result as risk_safe
+#          from review_response_1118
+#          union all
          select distinct 'person' as api_type,content_raise3 as prompt,'input'as data_type,r3审核员1 as risk_safe
-         from person_1117_not_end where content_raise3 is not null and rist_result_raise3 ='unsafe'
+         from person_1119 where content_raise3 is not null and rist_result_raise3 ='unsafe'
          union all
          select distinct 'person' as api_type,content_raise4 as prompt,'output'as data_type,r4审核员1 as risk_safe
-         from person_1117_not_end where content_raise4 is not null  and rist_result_raise4 ='unsafe'
-         union all
-         select distinct 'person' as api_type,content_raise3 as prompt,'input'as data_type,r3审核员1 as risk_safe
-         from person_1118_end where content_raise3 is not null and rist_result_raise3 ='unsafe'
-         union all
-         select distinct 'person' as api_type,content_raise4 as prompt,'output'as data_type,r4审核员1 as risk_safe
-         from person_1118_end where content_raise4 is not null  and rist_result_raise4 ='unsafe'
+         from person_1119 where content_raise4 is not null  and rist_result_raise4 ='unsafe'
          union all
          select api_type,prompt,data_type,risk_result as risk_safe
-         from review_response_1118
-     )tt  group by prompt,data_type)t;
-
-#
-# select *
-# from review_request;
+         from review_response_1119
+     )tt  group by prompt,data_type)t
+where (person_data is not null)
+                                        and (shumei_data is not null
+                                            or htj_data is not null
+                                            or r3_data is not null
+                                            or r4_data is not null
+                                            or baidu_data is not null
+                                            or ali_data is not null
+                                            );
