@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="ec2-18-140-190-225.ap-southeast-1.compute.amazonaws.com" id="aa8cec39-da0e-421b-a98d-703295f1607e" keyPath="$USER_HOME$/.ssh/htj.pem" port="22" nameFormat="DESCRIPTIVE" username="centos" useOpenSSHConfig="false" />
+      <sshConfig authType="OPEN_SSH" host="47.253.94.105" id="3f2a2913-01f1-43ee-aff9-2e1fc4ef7717" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

@@ -5,5 +5,50 @@
     <file url="file://$PROJECT_DIR$/test_data_or_import/每次需要给引擎用到的数据SQL.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/test_data_or_import/给孙宁的数据.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/test_data_or_import/给引擎用的.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/人审平台导数据/万知周报.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/人审平台导数据/傅强专用.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/人审平台导数据/晚上7点导出数据.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/oauth2_authorization.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/oauth2_authorization_consent.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/oauth2_registered_client.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_app.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_app_login_config.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_data_permission.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_data_permission_20220909.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_data_permission_test.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_email_log.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_login_log.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_module.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_module_20220909.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_module_20220913.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_module_api.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_module_api_20220909.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_module_api_20220913.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_permission_rel.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_permission_rel_20220909.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_permission_rel_copy1.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_permission_rel_copy2.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_permission_type.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_role.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_role_20220909.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_role_20220913.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_role_module.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_role_module_20220913.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_team.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_team_20220909.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_team_app.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_20220910.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_20220913.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_20220927.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_app.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_app_20220910.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_app_20220913.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_role.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_role_20220910.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_role_20220913.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_team.sql" dialect="MySQL" />
+    <file url="file://$USER_HOME$/Downloads/ddd/sys_user_team_20220910.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
